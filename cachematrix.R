@@ -42,3 +42,29 @@ cachemean <- function(x, ...) {
   x$setmean(m)
   m
 }
+
+## test functions
+
+source("ProgrammingAssignment2/cachematrix.R")
+ my_matrix <- makeCacheMatrix(matrix(1:4, 2, 2))
+ my_matrix$get()
+ 
+ my_matrix$getInverse()
+ NULL
+ cacheSolve(my_matrix)
+ 
+ my_matrix$getInverse()
+ 
+ my_matrix$set(matrix(c(2, 2, 1, 4), 2, 2))
+ 
+ my_matrix$get()
+ 
+ y_matrix$getInverse()
+ NULL
+ cacheSolve(my_matrix)
+ 
+ cacheSolve(my_matrix)
+ 
+ my_matrix$getInverse()
+ 
+ 
